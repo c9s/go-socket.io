@@ -1,8 +1,13 @@
 # socket.io
 
-[![GoDoc](http://godoc.org/github.com/googollee/go-socket.io?status.svg)](http://godoc.org/github.com/googollee/go-socket.io) [![Build Status](https://travis-ci.org/googollee/go-socket.io.svg)](https://travis-ci.org/googollee/go-socket.io)
+[![GoDoc](http://godoc.org/github.com/c9s/go-socket.io?status.svg)](http://godoc.org/github.com/c9s/go-socket.io) [![Build Status](https://travis-ci.org/googollee/go-socket.io.svg)](https://travis-ci.org/c9s/go-socket.io)
 
-**Please use v1.4 branch, or import "gopkg.in/googollee/go-socket.io.v1". I have no time to maintain master branch now**
+**This project was forked from googollee's socket io repository**
+
+## Included Fixes
+
+- Fixed engine.io ping/pong issue
+- Fixed websocket upgrade header issue
 
 go-socket.io is an implementation of [socket.io](http://socket.io) in golang, which is a realtime application framework.
 
