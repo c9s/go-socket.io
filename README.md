@@ -6,8 +6,9 @@
 
 ## Included Fixes
 
-- Fixed engine.io ping/pong issue
-- Fixed websocket upgrade header issue
+- Fixed engine.io ping/pong issue.
+- Fixed websocket upgrade header issue.
+- Removed the initiative ping package.
 
 go-socket.io is an implementation of [socket.io](http://socket.io) in golang, which is a realtime application framework.
 
